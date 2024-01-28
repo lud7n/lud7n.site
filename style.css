@@ -1,17 +1,13 @@
 @charset "utf-8";
 
 img {
-    opacity: 0.5;
+    opacity: 1.0;
 }
 
-.container {
-    width: 100%;
-    height: 20.6vw;
-    background: url("maika.jpg") repeat-x;
-    background-size: 20%;
-    position: absolute;
-    top: 300px;
+body {
+    background: url("shiro.jpeg");
 }
+
 
 div {
     color: #5c3919;
@@ -30,37 +26,48 @@ div {
 .title {
     font-family: "Courier New";
     font-size: 30px;
-    position: relative;
-    top: 40px;
+    height: 0px;
+    line-height: 700px;
+    letter-spacing: 2px;
 }
 
+
 .atcoder {
-    font-family: "ヒラギノ角ゴ ProN W6";
-    font-size: 15px;
-    position: absolute;
-    top: 1000px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    text-align: left;
+    position: fixed;
+    padding: 30px 0;
+}
+
+.shadow_test {
+    filter: drop-shadow(2px 2px 2px rgba(50, 50, 50, 0.8));
 }
 
 .portfolio {
-    font-family: "ヒラギノ角ゴ ProN W6";
-    font-size: 15px;
-    position: relative;
-    left: 100px;
+    text-align: left;
+    position: fixed;
+    padding: 90px 0;
+}
+
+.instagram {
+    text-align: left;
+    position: fixed;
+    padding: 150px 0;
+}
+
+.twitter {
+    text-align: left;
+    position: fixed;
+    padding: 210px 3px;
 }
 
 .aboutme {
-    font-family: "ヒラギノ角ゴ ProN W6";
+    font-family: "Courier New";
     font-size: 15px;
-    position: relative;
-    right: 100px;
+    text-align: center;
 }
 
 .hiyoko {
-    position: relative;
+    position: absolute;
     top: 100px;
     left: 80%;
 }
@@ -68,8 +75,8 @@ div {
 .profile01 {
     font-family: "ヒラギノ角ゴ ProN W6";
     font-size: 15px;
-    position: relative;
-    top: 1000px;
+    text-align: center;
+    padding: 800px 0;
 }
 
 .size_text {
@@ -79,5 +86,11 @@ div {
 .size_text2 {
     text-align: left;
     font-size: 12px;
+    font-family: "ヒラギノ角ゴ ProN W6";
+}
+
+.hiragino {
+    text-align: center;
+    font-size: 15px;
     font-family: "ヒラギノ角ゴ ProN W6";
 }
