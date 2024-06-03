@@ -1,0 +1,60 @@
+.poll-container {
+    /* 枠線を追加 */
+    padding: 60px;
+    /* 内側の余白を追加 */
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgba(255, 255, 255, 0.7);
+    /* 背景色を黒の半透明に設定 */
+    border-radius: 8px;
+    /* 角を丸くする */
+    box-shadow: 0 4px 8px rgba(100, 100, 100, 0.9);
+    /* 影を追加 */
+    margin: 20px auto;
+    /* 上下のマージンを設定 */
+    width: 70%;
+    /* 幅を80%に設定 */
+    max-width: 600px;
+    /* 最大幅を600pxに設定 */
+    color: black;
+    /* テキスト色を白に設定 */
+}
+
+.option-container {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type="text"] {
+    margin-right: 10px;
+    flex-grow: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* 入力フィールドを少し透明に */
+    color: rgb(8, 6, 6);
+    /* 入力テキストの色を黒に */
+    border: 1px solid #ccc;
+    /* 入力フィールドの枠線 */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: gray;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+.graph-container {
+    width: 300px;
+    height: 300px;
+    margin: 0% auto;
+}

@@ -1,0 +1,18 @@
+@keyframes floatAnimation {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+.floating-title {
+    display: inline-block;
+    animation: floatAnimation 3s ease-in-out infinite;
+    color: #000;
+    font-weight: bold;
+}
