@@ -1,25 +1,22 @@
 {
   "files": {
     "main.css": "/lud7n.site/static/css/main.073f5ab0.css",
-    "main.js": "/lud7n.site/static/js/main.b54e94c4.js",
+    "main.js": "/lud7n.site/static/js/main.77f7df4b.js",
     "static/media/copypen.jpg": "/lud7n.site/static/media/copypen.6f67208a2d85ff13bd4d.jpg",
     "static/media/SC.jpg": "/lud7n.site/static/media/SC.937c33df695910535f42.jpg",
-    "static/media/HTML_transparent.png": "/lud7n.site/static/media/HTML_transparent.b0aef93039ba7dd522f6.png",
-    "static/media/C++_transparent.png": "/lud7n.site/static/media/C++_transparent.7b1a8c1b2bf30ee7fd43.png",
     "static/media/nanaka.jpg": "/lud7n.site/static/media/nanaka.f06c1397e3fbb55dfa27.jpg",
     "static/media/funfes.jpg": "/lud7n.site/static/media/funfes.6d768fc10fecdf2751fd.jpg",
     "static/media/mireshien.jpg": "/lud7n.site/static/media/mireshien.4270c83a4dc9811c51d2.jpg",
-    "static/media/React-2_transparent.png": "/lud7n.site/static/media/React-2_transparent.c0b4b7248f2fd2dd5a51.png",
     "static/media/fuwawari.png": "/lud7n.site/static/media/fuwawari.8b5c7dc0b8f2e137f84a.png",
     "static/media/insta.png": "/lud7n.site/static/media/insta.ada0803263f91510766f.png",
     "static/media/atcoder_icon_transparent.png": "/lud7n.site/static/media/atcoder_icon_transparent.40fd7020671310a104f2.png",
     "static/media/redesigner_transparent.png": "/lud7n.site/static/media/redesigner_transparent.8d74b104b7b760733088.png",
     "index.html": "/lud7n.site/index.html",
     "main.073f5ab0.css.map": "/lud7n.site/static/css/main.073f5ab0.css.map",
-    "main.b54e94c4.js.map": "/lud7n.site/static/js/main.b54e94c4.js.map"
+    "main.77f7df4b.js.map": "/lud7n.site/static/js/main.77f7df4b.js.map"
   },
   "entrypoints": [
     "static/css/main.073f5ab0.css",
-    "static/js/main.b54e94c4.js"
+    "static/js/main.77f7df4b.js"
   ]
 }
