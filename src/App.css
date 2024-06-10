@@ -139,11 +139,17 @@ meter {
 }
 
 body {
+  width: 100vw;
+  /* ビューポートの幅に合わせる */
+  margin: 0;
+  /* デフォルトのマージンを削除 */
   margin-bottom: 50px;
   /* 下部に50pxの余白を追加 */
 }
 
 .half-circle {
+  margin: 0 auto;
+  /* 左右のマージンを自動に設定 */
   width: 300px;
   /* 幅を大きくする */
   height: 150px;
@@ -159,7 +165,7 @@ body {
   /* 薄い白で塗りつぶし */
 
   bottom: 20px;
-  margin-left: 20%;
+  margin-left: 13%;
 
   border: 2px solid #000;
   /* 枠線を追加 */
@@ -210,6 +216,10 @@ body {
 }
 
 .container_ellipse {
+  display: flex;
+  justify-content: center;
+  /* 水平方向の中央揃え */
+
   position: relative;
   width: 500px;
   /* コンテナの幅を増やす */

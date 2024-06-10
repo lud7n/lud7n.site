@@ -9,7 +9,7 @@
     /* テキストの色 */
     background-color: #000;
     /* 背景色をYouTubeの赤色に */
-    padding: 10px 15px;
+    padding: 10px 59px;
     /* パディングを調整 */
     border-radius: 20px;
     /* ボタンの角を丸く */
@@ -17,8 +17,8 @@
     /* 影を追加 */
     transition: background-color 0.3s;
     /* 背景色の変化を滑らかに */
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 38%;
+    margin-right: 50%;
 }
 
 .youtube-link a:hover {
