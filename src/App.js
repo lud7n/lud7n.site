@@ -4,7 +4,7 @@ import Header from './components/Header';
 import HomePage from './components/HomePage';
 import Page01 from './components/Page01';
 import Page02 from './components/Page02';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import SkillPage from './components/SkillPage';
 import Works from './components/Works';
 import Like from './components/Like';
@@ -12,7 +12,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/lud7n.site">
       <ScrollToTop />
       <div className="App">
         <Header />
@@ -27,7 +27,7 @@ function App() {
           <Route path="/like" element={<Like />} />
         </Routes>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
