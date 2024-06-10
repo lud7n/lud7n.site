@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lud7n.site/static/css/main.073f5ab0.css",
-    "main.js": "/lud7n.site/static/js/main.655af1d4.js",
+    "main.js": "/lud7n.site/static/js/main.043a65ba.js",
     "static/media/copypen.jpg": "/lud7n.site/static/media/copypen.6f67208a2d85ff13bd4d.jpg",
     "static/media/SC.jpg": "/lud7n.site/static/media/SC.937c33df695910535f42.jpg",
     "static/media/nanaka.jpg": "/lud7n.site/static/media/nanaka.f06c1397e3fbb55dfa27.jpg",
@@ -13,10 +13,10 @@
     "static/media/redesigner_transparent.png": "/lud7n.site/static/media/redesigner_transparent.8d74b104b7b760733088.png",
     "index.html": "/lud7n.site/index.html",
     "main.073f5ab0.css.map": "/lud7n.site/static/css/main.073f5ab0.css.map",
-    "main.655af1d4.js.map": "/lud7n.site/static/js/main.655af1d4.js.map"
+    "main.043a65ba.js.map": "/lud7n.site/static/js/main.043a65ba.js.map"
   },
   "entrypoints": [
     "static/css/main.073f5ab0.css",
-    "static/js/main.655af1d4.js"
+    "static/js/main.043a65ba.js"
   ]
 }
