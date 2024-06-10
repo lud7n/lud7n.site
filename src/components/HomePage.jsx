@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from "react-router-dom";
-import jsImage from "../Images/HTML_transparent.png";
 import profileImage from "../Images/nanaka.jpg";
-import cImage from "../Images/C++_transparent.png";
-import reactImage from "../Images/React-2_transparent.png";
 import twitterImage from "../Images/twitter_icon.png";
 import atcoderImage from "../Images/atcoder_icon_transparent.png";
 import instagramImage from "../Images/insta.png";
@@ -21,6 +18,7 @@ const HomePage = () => {
     };
 
     useEffect(() => {
+
         window.addEventListener('scroll', handleScroll);
         return () => {
             window.removeEventListener('scroll', handleScroll);
@@ -33,6 +31,7 @@ const HomePage = () => {
     const closePopup = () => setIsOpen(false);
 
     return (
+
         <body>
             <div className="container text-center">
 
@@ -44,7 +43,7 @@ const HomePage = () => {
                     <div class="ellipse" id="ellipse3"></div>
                 </div>
 
-                <img src={profileImage} className="fadeIn" style={{ width: '100vw', height: '100vh', objectFit: 'cover', borderRadius: '0', position: 'fixed', top: '0', left: '0', zIndex: '-1', opacity: opacity }} />
+                <img src={profileImage} alt="" className="fadeIn" style={{ width: '100vw', height: '100vh', objectFit: 'cover', borderRadius: '0', position: 'fixed', top: '0', left: '0', zIndex: '-1', opacity: opacity }} />
 
 
                 <p style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.5)', letterSpacing: '4px', fontWeight: '180' }}>
@@ -113,34 +112,6 @@ const HomePage = () => {
 
                 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-                {/* <section id="article">
-                    <div class="text-center">
-                        <h4 class="title">スキル</h4>
-                        <div class="row text-center">
-                            <div class="col-md-4 services">
-                                <img src={reactImage} />
-                                <h4>React</h4>
-                                <p>なにもできません</p>
-                            </div>
-                            <div class="col-md-4 services">
-                                <img src={jsImage} />
-                                <h4>HTML/CSS</h4>
-                                <p>ほぼつ��えません</p>
-                            </div>
-                            <div class="col-md-4 services">
-                                <img src={cImage} />
-                                <h4>c++</h4>
-                                <p>ちょっっっとだけつかえます</p><br></br>
-                            </div>
-                        </div>
-                        <Link to="/skill">
-                            <button type="button" class="btn btn-primary">
-                                スキル一覧
-                            </button>
-                        </Link>
-                    </div>
-                </section> */}
-
                 <div className="social-icons" id="social-icons" style={{ position: 'fixed', bottom: '20px', left: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: '1000', gap: '10px' }}>
                     <a href="https://twitter.com/Iud7n" target="_blank"><img src={twitterImage} alt="Twitter" style={{ width: '35px', height: '35px', opacity: 1.0, transition: 'opacity 0.3s ease-in-out', margin: '10px 0' }} /></a>
                     <a href="https://instagram.com/lud7n" target="_blank"><img src={instagramImage} alt="Instagram" style={{ width: '40px', height: '40px', opacity: 1.0, transition: 'opacity 0.3s ease-in-out', margin: '10px 0' }} /></a>
@@ -148,6 +119,8 @@ const HomePage = () => {
                 </div>
             </div >
         </body >
+
+
     )
 }
 
