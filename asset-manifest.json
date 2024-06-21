@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lud7n.site/static/css/main.77bf023a.css",
-    "main.js": "/lud7n.site/static/js/main.7875d024.js",
+    "main.css": "/lud7n.site/static/css/main.71b9577a.css",
+    "main.js": "/lud7n.site/static/js/main.43392311.js",
     "static/media/copypen.jpg": "/lud7n.site/static/media/copypen.6f67208a2d85ff13bd4d.jpg",
     "static/media/SC.jpg": "/lud7n.site/static/media/SC.937c33df695910535f42.jpg",
     "static/media/nanaka.jpg": "/lud7n.site/static/media/nanaka.f06c1397e3fbb55dfa27.jpg",
@@ -12,11 +12,11 @@
     "static/media/atcoder_icon_transparent.png": "/lud7n.site/static/media/atcoder_icon_transparent.40fd7020671310a104f2.png",
     "static/media/redesigner_transparent.png": "/lud7n.site/static/media/redesigner_transparent.8d74b104b7b760733088.png",
     "index.html": "/lud7n.site/index.html",
-    "main.77bf023a.css.map": "/lud7n.site/static/css/main.77bf023a.css.map",
-    "main.7875d024.js.map": "/lud7n.site/static/js/main.7875d024.js.map"
+    "main.71b9577a.css.map": "/lud7n.site/static/css/main.71b9577a.css.map",
+    "main.43392311.js.map": "/lud7n.site/static/js/main.43392311.js.map"
   },
   "entrypoints": [
-    "static/css/main.77bf023a.css",
-    "static/js/main.7875d024.js"
+    "static/css/main.71b9577a.css",
+    "static/js/main.43392311.js"
   ]
 }
