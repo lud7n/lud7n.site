@@ -1,5 +1,4 @@
 import React from 'react'
-import profileImage from "../Images/nanaka.jpg";
 import copypenImage from "../Images/copypen.jpg";
 import fuwawariImage from "../Images/fuwawari.png";
 import funfesImage from "../Images/funfes.jpg";
@@ -8,7 +7,6 @@ import RedesignerImage from "../Images/redesigner_transparent.png";
 const Works = () => {
     return (
         <div>
-            <img src={profileImage} className="fadeIn" style={{ width: '100vw', height: '100vh', objectFit: 'cover', borderRadius: '0', position: 'fixed', top: '0', left: '0', zIndex: '-1', opacity: '1.0' }} />
             <br /><br /><br /><br /><br /><br /><br /><br />
             <div className="text-center">
                 <h2 style={{ letterSpacing: '4px', fontWeight: '380' }}>

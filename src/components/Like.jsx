@@ -1,5 +1,4 @@
-import React from 'react'
-import profileImage from "../Images/nanaka.jpg";
+import React from 'react';
 import YouTubeLink from './YouTubeLink'; // YouTubeLink コンポーネントをインポート
 import FloatingTitle from './FloatingTitle'; // FloatingTitle コンポーネントをインポート
 import Poll from './Poll';
@@ -7,19 +6,18 @@ import Poll from './Poll';
 const Like = () => {
     return (
         <div>
-            <img src={profileImage} className="fadeIn" style={{ width: '100vw', height: '100vh', objectFit: 'cover', borderRadius: '0', position: 'fixed', top: '0', left: '0', zIndex: '-1', opacity: '1.0' }} />
             <br /><br /><br /><br /><br /><br />
             <div class="text-center">
-                <h2 style={{ fontWeight: 'bold' }}>
-                    Idol Life<br /><br />
-                </h2>
-                {/*   */}
+
                 <br />
                 <FloatingTitle />
                 <br /><br />
-                <YouTubeLink />
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/E4PVynHrfp8?si=ZnUDFmVObkpXQWrP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
                 <br /><br />
                 <Poll />
+                <br /><br /><br /><br />
             </div>
         </div>
     )

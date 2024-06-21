@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from "react-router-dom";
-import profileImage from "../Images/nanaka.jpg";
 import twitterImage from "../Images/twitter_icon.png";
 import atcoderImage from "../Images/atcoder_icon_transparent.png";
 import instagramImage from "../Images/insta.png";
@@ -33,7 +32,7 @@ const HomePage = () => {
     return (
 
         <body>
-            <div className="container text-center">
+            <div className="container">
 
                 <h2 style={{ transform: 'translateY(320px)', textShadow: '2px 2px 4px rgba(0,0,0,0.5)', letterSpacing: '10px', fontWeight: '180' }}>lud7n.site</h2>
 
@@ -43,30 +42,20 @@ const HomePage = () => {
                     <div class="ellipse" id="ellipse3"></div>
                 </div>
 
-                <img src={profileImage} alt="" className="fadeIn" style={{ width: '100vw', height: '100vh', objectFit: 'cover', borderRadius: '0', position: 'fixed', top: '0', left: '0', zIndex: '-1', opacity: opacity }} />
-
-
                 <p style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.5)', letterSpacing: '4px', fontWeight: '180' }}>
                     I'm a ? Engineer ? Designer ?<br></br>
                 </p>
 
-                <br /><br /><br /><br /><br /><br /><br /><br /><br />
+                <Link to="/works">
+                    <RotatingSemicircle />
+                </Link>
+                <div>
 
-                <div class="text-center">
-
-                    <Link to="/works">
-                        <RotatingSemicircle />
-                    </Link>
-                    <div>
-
-                        <h3 className="text-shadow" style={{ position: 'relative', top: '-20px', left: '10px', letterSpacing: '4px', fontWeight: '180' }}>
-                            Works<br></br>
-                            <h5 style={{ fontFamily: 'Arial', letterSpacing: '4px', fontWeight: '50' }}>click here</h5>
-                        </h3>
-                    </div>
+                    <h3 className="text-shadow" style={{ position: 'relative', top: '-40px', letterSpacing: '4px', fontWeight: '180' }}>
+                        Works<br></br>
+                        <h5 style={{ fontFamily: 'Arial', letterSpacing: '4px', fontWeight: '50' }}>click here</h5>
+                    </h3>
                 </div>
-
-                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
                 <div class="text-center">
 
@@ -75,27 +64,23 @@ const HomePage = () => {
                     </Link>
 
                     <div>
-                        <h3 className="text-shadow" style={{ position: 'relative', top: '-20px', left: '10px', letterSpacing: '4px', fontWeight: '180' }}>Skill<br></br>
+                        <h3 className="text-shadow" style={{ position: 'relative', top: '-40px', letterSpacing: '4px', fontWeight: '180' }}>Skill<br></br>
                             <h5 style={{ fontFamily: 'Arial', letterSpacing: '4px', fontWeight: '50' }}>click here</h5>
                         </h3>
                     </div>
                 </div>
-
-                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
                 <div class="text-center">
 
                     <RotatingSemicircle />
 
                     <div>
-                        <h3 className="text-shadow" style={{ position: 'relative', top: '-20px', left: '10px', letterSpacing: '4px', fontWeight: '180' }}>Qualification<br></br>
+                        <h3 className="text-shadow" style={{ position: 'relative', top: '-40px', letterSpacing: '4px', fontWeight: '180' }}>Qualification<br></br>
                             <h5 style={{ fontFamily: 'Arial', letterSpacing: '4px', fontWeight: '50' }} onClick={openPopup}>click here</h5>
                             <Popup isOpen={isOpen} close={closePopup} />
                         </h3>
                     </div>
                 </div>
-
-                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
                 <div class="text-center">
 
@@ -104,7 +89,7 @@ const HomePage = () => {
                     </Link>
 
                     <div>
-                        <h3 className="text-shadow" style={{ position: 'relative', top: '-20px', left: '10px', letterSpacing: '4px', fontWeight: '180' }}>Like<br></br>
+                        <h3 className="text-shadow" style={{ position: 'relative', top: '-40px', letterSpacing: '4px', fontWeight: '180' }}>Like<br></br>
                             <h5 style={{ fontFamily: 'Arial', letterSpacing: '4px', fontWeight: '50' }}>click here</h5>
                         </h3>
                     </div>

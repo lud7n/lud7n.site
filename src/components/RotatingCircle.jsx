@@ -17,10 +17,12 @@ function RotatingSemicircle() {
     }, []);
 
     return (
-        <div className="half-circle" style={{
-            transform: `rotate(${rotation}deg)`,
-        }}>
-        </div >
+        <div className="contentform">
+            <div className="half-circle" style={{
+                transform: `rotate(${rotation}deg)`,
+            }}>
+            </div >
+        </div>
     );
 }
 

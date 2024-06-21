@@ -11,7 +11,6 @@ const BlogPage = () => {
 
     return (
         <div>
-            <img src={profileImage} alt="" className="fadeIn" style={{ width: '100vw', height: '100vh', objectFit: 'cover', borderRadius: '0', position: 'fixed', top: '0', left: '0', zIndex: '-1', opacity: '1.0' }} />
             <br /><br /><br /><br /><br /><br />
             <div className="text-center">
                 <h1 style={{ letterSpacing: '4px', fontWeight: '380' }}>Blog</h1>

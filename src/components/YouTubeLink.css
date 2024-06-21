@@ -9,7 +9,7 @@
     /* テキストの色 */
     background-color: #000;
     /* 背景色をYouTubeの赤色に */
-    padding: 10px 59px;
+    padding: 10px 50px;
     /* パディングを調整 */
     border-radius: 20px;
     /* ボタンの角を丸く */
@@ -17,7 +17,7 @@
     /* 影を追加 */
     transition: background-color 0.3s;
     /* 背景色の変化を滑らかに */
-    margin-left: 38%;
+    margin-left: 50%;
     margin-right: 50%;
 }
 

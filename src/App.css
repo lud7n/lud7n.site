@@ -58,8 +58,7 @@ nav ul li a:hover {
 }
 
 .container {
-  height: 0;
-  padding: 0;
+  text-align: center;
 }
 
 .container h1 {
@@ -139,16 +138,28 @@ meter {
 }
 
 body {
-  width: 100vw;
   /* ビューポートの幅に合わせる */
-  margin: 0;
   /* デフォルトのマージンを削除 */
   margin-bottom: 50px;
   /* 下部に50pxの余白を追加 */
 }
 
+.contentform {
+  display: flex;
+  justify-content: center;
+  /* 水平方向の中央揃え */
+  align-items: center;
+  /* 垂直方向の中央揃え */
+  height: 100vh;
+  /* コンテナの高さをビューポートの高さに設定 */
+  position: relative;
+  /* 子要素の位置指定の基準点 */
+}
+
 .half-circle {
-  margin: 0 auto;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  /* 中心からのオフセット調整 */
   /* 左右のマージンを自動に設定 */
   width: 300px;
   /* 幅を大きくする */
@@ -165,7 +176,6 @@ body {
   /* 薄い白で塗りつぶし */
 
   bottom: 20px;
-  margin-left: 13%;
 
   border: 2px solid #000;
   /* 枠線を追加 */
@@ -175,6 +185,7 @@ body {
   /* 変形の原点を要素の水平中心と下端に設定 */
   filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.5));
   z-index: 1000;
+
 }
 
 .text-shadow {
@@ -303,7 +314,7 @@ body {
   margin: 30px;
   padding: 20px;
   width: 80%;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgb(216, 216, 216);
   /* 白色の背景を少し透明に */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -329,7 +340,7 @@ body {
 
 .view-article-button {
   padding: 6px 18px;
-  background-color: #000000;
+  background-color: black;
   color: white;
   text-decoration: none;
   border-radius: 5px;
