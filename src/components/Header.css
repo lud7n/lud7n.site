@@ -1,0 +1,24 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* 背景を半透明に設定 */
+    color: white;
+    z-index: 1000;
+    padding: 10px 0;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8);
+    /* 下部にグラデーションシャドウを追加 */
+}
+
+/* リンクの色を白に保持 */
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ホバー時のスタイルを追加（オプション） */
+.header a:hover {
+    text-decoration: underline;
+}
