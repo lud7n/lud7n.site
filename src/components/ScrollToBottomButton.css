@@ -11,9 +11,9 @@
     text-decoration: none;
     display: flex;
     justify-content: center;
+    margin: 15px auto;
     align-items: center;
     font-size: 24px;
-    margin: 20px auto;
     cursor: pointer;
     border-radius: 50%;
     /* 50%にすることで正円になります */

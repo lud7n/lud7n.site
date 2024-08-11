@@ -43,45 +43,47 @@ const HomePage = () => {
     return (
 
         <body>
-            <Header />
-            <div className="container">
-                <div className="title-container">
-                    <h2 className="title">lud7n.site</h2>
-                </div>
+            <div className="homepage">
+                <Header />
+                <div className="container">
+                    <div className="title-container">
+                        <h2 className="title">lud7n.site</h2>
+                    </div>
 
-                <p className="subtitle">
-                    I'm a ? Engineer ? Designer ?<br></br>
-                </p>
+                    <p className="subtitle">
+                        I'm a ? Engineer ? Designer ?<br></br>
+                    </p>
 
-                <SelfIntroduction />
+                    <SelfIntroduction />
 
-                <div className="scroll-button-container">
-                    <ScrollToBottomButton onClick={scrollToBottom} />
-                </div>
+                    <div className="scroll-button-container">
+                        <ScrollToBottomButton onClick={scrollToBottom} />
+                    </div>
 
-                <div className="navigation-buttons">
-                    <Link to="/works" className="nav-button">Works</Link>
-                    <Link to="/skill" className="nav-button">Skill</Link>
-                    <Link to="/like" className="nav-button">Like</Link>
-                </div>
+                    <div className="navigation-buttons">
+                        <Link to="/works" className="nav-button">Works</Link>
+                        <Link to="/skill" className="nav-button">Skill</Link>
+                        <Link to="/like" className="nav-button">Like</Link>
+                    </div>
 
-                <div class="text-center">
+                    <div class="text-center">
 
-                    {/* <div>
+                        {/* <div>
                         <h3 className="text-shadow" style={{ position: 'relative', top: '100px', letterSpacing: '4px', fontWeight: '180' }}>Qualification<br></br>
                             <h5 style={{ fontFamily: 'Arial', letterSpacing: '4px', fontWeight: '50' }} onClick={openPopup}>click here</h5>
                             <Popup isOpen={isOpen} close={closePopup} />
                         </h3>
                     </div> */}
-                    <div className="social-icons" id="social-icons" style={{ position: 'fixed', bottom: '20px', left: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: '1000', gap: '10px' }}>
-                        <a href="https://twitter.com/Iud7n" target="_blank"><img src={twitterImage} alt="Twitter" style={{ width: '35px', height: '35px', opacity: 1.0, transition: 'opacity 0.3s ease-in-out', margin: '10px 0' }} /></a>
-                        <a href="https://instagram.com/lud7n" target="_blank"><img src={instagramImage} alt="Instagram" style={{ width: '40px', height: '40px', opacity: 1.0, transition: 'opacity 0.3s ease-in-out', margin: '10px 0' }} /></a>
-                        <a href="https://atcoder.jp/users/lud7n" target="_blank"><img src={atcoderImage} alt="Facebook" style={{ width: '40px', height: '40px', opacity: 1.0, transition: 'opacity 0.3s ease-in-out', margin: '10px 0' }} /></a>
-                    </div>
-                </div >
-            </div>
-            <div className="bottom-space">
-                <p className="bottom-text">© 2024 lud7n.site All Rights Reserved.</p>
+                        <div className="social-icons" id="social-icons" style={{ position: 'fixed', bottom: '20px', left: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: '1000', gap: '10px' }}>
+                            <a href="https://twitter.com/Iud7n" target="_blank"><img src={twitterImage} alt="Twitter" style={{ width: '35px', height: '35px', opacity: 1.0, transition: 'opacity 0.3s ease-in-out', margin: '10px 0' }} /></a>
+                            <a href="https://instagram.com/lud7n" target="_blank"><img src={instagramImage} alt="Instagram" style={{ width: '40px', height: '40px', opacity: 1.0, transition: 'opacity 0.3s ease-in-out', margin: '10px 0' }} /></a>
+                            <a href="https://atcoder.jp/users/lud7n" target="_blank"><img src={atcoderImage} alt="Facebook" style={{ width: '40px', height: '40px', opacity: 1.0, transition: 'opacity 0.3s ease-in-out', margin: '10px 0' }} /></a>
+                        </div>
+                    </div >
+                </div>
+                <div className="bottom-space">
+                    <p className="bottom-text">© 2024 lud7n.site All Rights Reserved.</p>
+                </div>
             </div>
         </body >
 

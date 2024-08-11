@@ -4,9 +4,18 @@ import copypenImage from "../Images/copypen.jpg";
 import fuwawariImage from "../Images/fuwawari.png";
 import funfesImage from "../Images/funfes.jpg";
 import RedesignerImage from "../Images/redesigner_transparent.png";
-import ScrollToBottomButton from './ScrollToBottomButton';  // ScrollBottomButtonをインポート
+import ScrollToBottomButton from './ScrollToBottomButton';  // ScrollToBottomButtonをインポート
 
 const Works = () => {
+    const scrollOneWindowHeight = () => {
+        const currentScrollTop = window.pageYOffset;
+        const windowHeight = window.innerHeight;
+        window.scrollTo({
+            top: currentScrollTop + windowHeight,
+            behavior: 'smooth'
+        });
+    };
+
     return (
         <div className="works-page">
             <a href="https://student.redesigner.jp/students/e9d78f9a30ea8c296c368168c9f03a3e"
@@ -24,7 +33,7 @@ const Works = () => {
                     </p>
                 </div>
 
-                <ScrollToBottomButton onClick={ScrollToBottomButton} />
+                <ScrollToBottomButton onClick={scrollOneWindowHeight} />
 
                 <div className="works-content">
                     <div className="work-item">
@@ -39,10 +48,14 @@ const Works = () => {
                     </div>
                     <div className="work-item">
                         <img src={funfesImage} alt="未来祭2022" className="work-image" />
-                        <h3 className="work-title">未来祭2022</h3>
-                        <p className="work-description">３年ぶりとなる大型の対面開催に向けて、未来祭実行委員で力を合わて学園祭を務め上げました。私はイベントセクションリーダーという役職を務めました。</p>
+                        <h3 className="work-title">Funfes2022</h3>
+                        <p className="work-description">For the first time in three years, the Future Festival Executive Committee members joined forces to hold a large-scale face-to-face event and served as the school festival. I served as the event section leader.</p>
                     </div>
                 </div>
+            </div>
+
+            <div className="bottom-space">
+                <p className="bottom-text">© 2024 lud7n.site All Rights Reserved.</p>
             </div>
 
         </div>

@@ -14,7 +14,7 @@ body {
 .works-container {
     max-width: 1200px;
     width: 100%;
-    margin: 150px auto 0;
+    margin: 300px auto 0;
 }
 
 .works-header {
@@ -39,6 +39,7 @@ body {
 .works-content {
     display: flex;
     flex-direction: column;
+    margin-top: 130px;
     gap: 60px;
 }
 
@@ -50,23 +51,21 @@ body {
     width: 80%;
     max-width: 600px;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.3));
 }
 
 .work-title {
     font-size: 20px;
     font-weight: 150;
-    margin-bottom: 10px;
     letter-spacing: 2px;
-    margin-bottom: 15px;
 }
 
 .work-description {
     font-size: 14px;
     color: #666;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 .redesigner-link {
@@ -87,4 +86,22 @@ body {
     /* オレンジ色 */
     font-weight: 500;
     /* 少し太字に */
+}
+
+.works-container {
+    /* 既存のスタイル */
+    padding-bottom: 100px;
+    /* この値を調整して、下部の空白を増やします */
+}
+
+.works-content {
+    /* 既存のスタイル */
+    margin-bottom: 60px;
+    /* この値を調整して、コンテンツと下部の空白の間隔を増やします */
+}
+
+/* 既存のボトムスペースのスタイルがある場合は以下のように調整します */
+.bottom-space {
+    margin-top: 60px;
+    /* この値を調整して、コンテンツとボトムスペースの間隔を増やします */
 }
