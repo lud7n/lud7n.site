@@ -9,6 +9,7 @@ import Popup from './Popup';
 import SelfIntroduction from './SelfIntroduction'; // 新しい SelfIntroduction コンポーネントをインポート
 import ScrollToBottomButton from './ScrollToBottomButton'; // 新しい ScrollToBottomButton コンポーネントをインポート
 import './HomePage.css';  // 既存のCSSファイルのインポートを確認
+import FadeInOverlay from './FadeInOverlay';
 
 const HomePage = () => {
     const [opacity, setOpacity] = useState(0);
@@ -40,19 +41,21 @@ const HomePage = () => {
         });
     };
 
+    const [showContent, setShowContent] = useState(false);
+
+
     return (
 
         <body>
             <div className="homepage">
                 <Header />
                 <div className="container">
-                    <div className="title-container">
+                    <div className={`title-container ${showContent ? 'show' : ''}`}>
                         <h2 className="title">lud7n.site</h2>
+                        <p className="subtitle">
+                            I'm a ? Engineer ? Designer ?<br></br>
+                        </p>
                     </div>
-
-                    <p className="subtitle">
-                        I'm a ? Engineer ? Designer ?<br></br>
-                    </p>
 
                     <SelfIntroduction />
 
