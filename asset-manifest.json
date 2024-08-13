@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/lud7n.site/static/css/main.1bb2e8f5.css",
-    "main.js": "/lud7n.site/static/js/main.bff8df0e.js",
+    "main.css": "/lud7n.site/static/css/main.b37e3e60.css",
+    "main.js": "/lud7n.site/static/js/main.957015c1.js",
     "static/media/copypen.jpg": "/lud7n.site/static/media/copypen.6f67208a2d85ff13bd4d.jpg",
     "static/media/SC.jpg": "/lud7n.site/static/media/SC.937c33df695910535f42.jpg",
-    "static/media/nanaka.jpg": "/lud7n.site/static/media/nanaka.f06c1397e3fbb55dfa27.jpg",
     "static/media/funfes.jpg": "/lud7n.site/static/media/funfes.6d768fc10fecdf2751fd.jpg",
     "static/media/mireshien.jpg": "/lud7n.site/static/media/mireshien.4270c83a4dc9811c51d2.jpg",
     "static/media/fuwawari.png": "/lud7n.site/static/media/fuwawari.8b5c7dc0b8f2e137f84a.png",
@@ -12,11 +11,11 @@
     "static/media/atcoder_icon_transparent.png": "/lud7n.site/static/media/atcoder_icon_transparent.40fd7020671310a104f2.png",
     "static/media/redesigner_transparent.png": "/lud7n.site/static/media/redesigner_transparent.8d74b104b7b760733088.png",
     "index.html": "/lud7n.site/index.html",
-    "main.1bb2e8f5.css.map": "/lud7n.site/static/css/main.1bb2e8f5.css.map",
-    "main.bff8df0e.js.map": "/lud7n.site/static/js/main.bff8df0e.js.map"
+    "main.b37e3e60.css.map": "/lud7n.site/static/css/main.b37e3e60.css.map",
+    "main.957015c1.js.map": "/lud7n.site/static/js/main.957015c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bb2e8f5.css",
-    "static/js/main.bff8df0e.js"
+    "static/css/main.b37e3e60.css",
+    "static/js/main.957015c1.js"
   ]
 }
