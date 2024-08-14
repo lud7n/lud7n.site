@@ -8,7 +8,7 @@
 
 .blog-title {
     text-align: center;
-    margin-bottom: 300px;
+    margin-bottom: 600px;
     font-size: 24px;
     font-weight: 200;
     letter-spacing: 4px;
@@ -23,7 +23,7 @@
 }
 
 .article-card {
-    background-color: #dadada;
+    background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -44,7 +44,7 @@
     font-size: 16px;
     font-weight: 600;
     margin: 0 0 0 15px;
-    color: #333;
+    color: black;
 }
 
 .read-more-button {

@@ -1,0 +1,109 @@
+.article-template {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 150px;
+    padding-left: 20px;
+    /* 左側の余白を追加 */
+    padding-right: 20px;
+    /* 右側の余白を追加 */
+    /* ヘッダーを含めて150px下に配置 */
+}
+
+.article-template-wrapper {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: white;
+}
+
+.article-template-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    padding-left: 20px;
+    /* 左側の余白を追加 */
+    padding-right: 20px;
+    /* 右側の余白を追加 */
+}
+
+.article-template-title {
+    font-size: 28px;
+    color: white;
+    margin: 0;
+    flex: 1;
+    /* タイトルが利用可能なスペースを占有 */
+    padding-right: 20px;
+    /* 日付との間隔 */
+}
+
+.article-template-date {
+    font-size: 14px;
+    color: white;
+    white-space: nowrap;
+    /* 日付が改行されないようにする */
+}
+
+.article-template-content {
+    margin-bottom: 50px;
+}
+
+.article-template-content h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.article-template-content p {
+    margin-bottom: 15px;
+}
+
+.article-template-content ul {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.article-template-content a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.article-template-content a:hover {
+    text-decoration: underline;
+}
+
+.article-template-footer {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.article-template-back-to-blog {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #0066cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.article-template-back-to-blog:hover {
+    background-color: #0052a3;
+}
+
+@media (max-width: 768px) {
+    .article-template-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .article-template-title {
+        margin-bottom: 10px;
+        padding-right: 0;
+    }
+}

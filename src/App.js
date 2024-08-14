@@ -8,6 +8,7 @@ import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import SkillPage from './components/SkillPage';
 import Works from './components/Works';
 import Like from './components/Like';
+import Article1 from './articles/Article1';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/skill" element={<SkillPage />} />
           <Route path="/works" element={<Works />} />
           <Route path="/like" element={<Like />} />
+          <Route path="/article1" element={<Article1 />} />
         </Routes>
       </div>
     </Router>

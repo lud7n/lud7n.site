@@ -24,7 +24,7 @@ const BlogPage = () => {
                             className={`article-image ${article.imageClass || ''}`}
                         />
                         <div className="article-header">
-                            <h2 className="article-title">{article.title}</h2>
+                            <h6 className="article-title">{article.title}</h6>
                             <p className="article-date">
                                 {new Date(article.date).toLocaleDateString('ja-JP', {
                                     year: 'numeric',
