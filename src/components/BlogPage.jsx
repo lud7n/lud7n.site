@@ -14,7 +14,8 @@ const articles = [
 const BlogPage = () => {
     return (
         <div className="blog-page">
-            <h1 className="blog-title">Blog Articles</h1>
+            <h1 className="blog-title">Blog Articles
+            </h1>
             <div className="articles-grid">
                 {articles.slice().reverse().map(article => (
                     <div key={article.id} className="article-card">

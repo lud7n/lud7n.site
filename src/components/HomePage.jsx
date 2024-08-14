@@ -53,7 +53,7 @@ const HomePage = () => {
                     <div className={`title-container ${showContent ? 'show' : ''}`}>
                         <h2 className="title">lud7n.site</h2>
                         <p className="subtitle">
-                            I'm a ? Engineer ? Designer ?<br></br>
+                            if (I'm ? Engineer : Designer);<br></br>
                         </p>
                     </div>
 

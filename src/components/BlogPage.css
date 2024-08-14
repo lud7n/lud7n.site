@@ -2,7 +2,6 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 280px 60px 20px;
-    font-family: 'Arial';
     /* Added top padding of 320px (300px + 20px) */
 }
 
@@ -13,6 +12,21 @@
     font-weight: 200;
     letter-spacing: 4px;
     color: white;
+    animation: floatUp 1s ease-out forwards;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+@keyframes floatUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .articles-grid {

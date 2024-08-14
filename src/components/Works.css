@@ -18,22 +18,31 @@ body {
 }
 
 .works-header {
+    font-size: 12px;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 300px;
+    animation: floatUp 1s ease-out forwards;
+    opacity: 0;
+    transform: translateY(20px);
 }
 
 .works-title {
-    font-size: 24px;
-    font-weight: 300;
-    letter-spacing: 4px;
-    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: white;
+    line-height: 1.5;
+    font-weight: 150;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .works-subtitle {
-    font-size: 16px;
-    font-weight: 300;
-    margin-bottom: 300px;
+    font-size: 1.2em;
     color: #666;
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 0 auto;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 .works-content {
@@ -104,4 +113,17 @@ body {
 .bottom-space {
     margin-top: 60px;
     /* この値を調整して、コンテンツとボトムスペースの間隔を増やします */
+}
+
+
+@keyframes floatUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
