@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/lud7n.site/static/css/main.685f6042.css",
-    "main.js": "/lud7n.site/static/js/main.e7988754.js",
-    "static/media/copypen.jpg": "/lud7n.site/static/media/copypen.6f67208a2d85ff13bd4d.jpg",
-    "static/media/SC.jpg": "/lud7n.site/static/media/SC.937c33df695910535f42.jpg",
-    "static/media/funfes.jpg": "/lud7n.site/static/media/funfes.6d768fc10fecdf2751fd.jpg",
-    "static/media/mireshien.jpg": "/lud7n.site/static/media/mireshien.4270c83a4dc9811c51d2.jpg",
-    "static/media/fuwawari.png": "/lud7n.site/static/media/fuwawari.8b5c7dc0b8f2e137f84a.png",
-    "static/media/insta.png": "/lud7n.site/static/media/insta.ada0803263f91510766f.png",
-    "static/media/atcoder_icon_transparent.png": "/lud7n.site/static/media/atcoder_icon_transparent.40fd7020671310a104f2.png",
-    "static/media/redesigner_transparent.png": "/lud7n.site/static/media/redesigner_transparent.8d74b104b7b760733088.png",
-    "index.html": "/lud7n.site/index.html",
-    "main.685f6042.css.map": "/lud7n.site/static/css/main.685f6042.css.map",
-    "main.e7988754.js.map": "/lud7n.site/static/js/main.e7988754.js.map"
+    "main.css": "./static/css/main.648c5da6.css",
+    "main.js": "./static/js/main.a095d756.js",
+    "static/media/copypen.jpg": "./static/media/copypen.6f67208a2d85ff13bd4d.jpg",
+    "static/media/SC.jpg": "./static/media/SC.937c33df695910535f42.jpg",
+    "static/media/funfes.jpg": "./static/media/funfes.6d768fc10fecdf2751fd.jpg",
+    "static/media/mireshien.jpg": "./static/media/mireshien.4270c83a4dc9811c51d2.jpg",
+    "static/media/fuwawari.png": "./static/media/fuwawari.8b5c7dc0b8f2e137f84a.png",
+    "static/media/insta.png": "./static/media/insta.ada0803263f91510766f.png",
+    "static/media/lud7n.logo_0815.png": "./static/media/lud7n.logo_0815.26ae27ed94be4e099eb5.png",
+    "static/media/atcoder_icon_transparent.png": "./static/media/atcoder_icon_transparent.40fd7020671310a104f2.png",
+    "static/media/redesigner_transparent.png": "./static/media/redesigner_transparent.8d74b104b7b760733088.png",
+    "index.html": "./index.html",
+    "main.648c5da6.css.map": "./static/css/main.648c5da6.css.map",
+    "main.a095d756.js.map": "./static/js/main.a095d756.js.map"
   },
   "entrypoints": [
-    "static/css/main.685f6042.css",
-    "static/js/main.e7988754.js"
+    "static/css/main.648c5da6.css",
+    "static/js/main.a095d756.js"
   ]
 }
