@@ -1,8 +1,6 @@
 .header {
     position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
     background-color: rgba(0, 0, 0, 0.5);
     /* 背景を半透明に設定 */
     color: white;
@@ -10,6 +8,36 @@
     padding: 10px 0;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8);
     /* 下部にグラデーションシャドウを追加 */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.logo-image {
+    width: 60px;
+    /* ロゴのサイズを適切に調整してください */
+    height: auto;
+    margin-top: -10px;
+    margin-right: -25px;
+    /* 高さも指定して、アスペクト比を維持します */
+    /* object-fit: contain; */
+    /* 画像のアスペクト比を保持しつつ、指定したサイズに収めます */
+}
+
+.logo h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    /* line-height: 60px; */
+    /* ロゴの高さと同じにして、垂直方向の中央揃えを確保します */
 }
 
 /* リンクの色を白に保持 */

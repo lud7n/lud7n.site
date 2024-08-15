@@ -1,8 +1,8 @@
 {
-  "name": "react-bootstrap-portfolio",
+  "homepage": ".",
+  "name": "react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lud7n.github.io/lud7n.site/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
