@@ -29,8 +29,8 @@ const ScrollBackgroundColor = () => {
   }
 
   return (
-    <div style={{ height: '2000vh', backgroundColor: backgroundColor }}> {/* 高さを300vhに設定 */}
-      <h1 style={{ color: scrollPercent < 0.5 ? 'white' : 'black' }}>Scroll to change background color</h1>
+    <div style={{ height: '1500vh', backgroundColor: backgroundColor }}> {/* 高さを300vhに設定 */}
+      <h1 style={{ color: scrollPercent < 0.5 ? 'white' : 'black' }}>背景色固定するためだけのページ</h1>
     </div>
   );
 };
