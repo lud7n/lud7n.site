@@ -1,32 +1,38 @@
-import React, { useState } from 'react';
-import LikeModal from './LikeModal';
-import './Like.css';
+import React, { useState, useEffect } from 'react';
 
-const likeItems = [
-  { id: 'cp', title: 'Competitive Programming', content: 'I enjoy solving algorithm problems on AtCoder and LeetCode. I use C++ and always aim for optimal solutions.' },
-  { id: 'idol', title: 'Idol', content: 'I love =LOVE and Maika Sasaki. Their concerts are emotional, energetic, and unforgettable.' },
-  { id: 'qualification', title: 'Qualifications', content: 'I study for various certifications like FE, SC, and more. I love learning across disciplines.' },
-];
+const ScrollBackgroundColor = () => {
+  const [scrollPosition, setScrollPosition] = useState(0);
 
-const Like = () => {
-  const [activeItem, setActiveItem] = useState(null);
+  const handleScroll = () => {
+    setScrollPosition(window.scrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const scrollPercent = Math.min(scrollPosition / (document.documentElement.scrollHeight - window.innerHeight), 1);
+
+  let backgroundColor;
+  
+  if (scrollPercent < 0.5) {
+    // 黒から白への変化（スクロール位置が50%以下）
+    backgroundColor = `rgb(${255 * scrollPercent}, ${255 * scrollPercent}, ${255 * scrollPercent})`;
+  } else {
+    // 白から赤への変化（スクロール位置が50%以上）
+    const redPercent = (scrollPercent - 0.5) * 2; // 0.5以上から1までを0から1にスケーリング
+    backgroundColor = `rgb(${255}, ${255 - 255 * redPercent}, ${255 - 255 * redPercent})`;
+  }
 
   return (
-    <div className="like-page">
-      <h1 className="like-title">My Favorites</h1>
-      <div className="like-buttons">
-        {likeItems.map(item => (
-          <button key={item.id} className="like-button" onClick={() => setActiveItem(item)}>
-            {item.title}
-          </button>
-        ))}
-      </div>
-
-      {activeItem && (
-        <LikeModal item={activeItem} onClose={() => setActiveItem(null)} />
-      )}
+    <div style={{ height: '2000vh', backgroundColor: backgroundColor }}> {/* 高さを300vhに設定 */}
+      <h1 style={{ color: scrollPercent < 0.5 ? 'white' : 'black' }}>Scroll to change background color</h1>
     </div>
   );
 };
 
-export default Like;
+export default ScrollBackgroundColor;
