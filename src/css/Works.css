@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.works-page {
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    /* background-color: #09171F; */
+    flex-direction: column;
+    align-items: center;
+    font-family: serif;
+}
+
+.works-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 300px auto 0;
+}
+
+.works-header {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 300px;
+    font-family: serif;
+    animation: floatUp 1s ease-out forwards;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.works-title {
+    font-size: 2.5em;
+    color: #CEA17A;
+    line-height: 1.5;
+    font-weight: 150;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.works-subtitle {
+    font-size: 1.2em;
+    color: #CEA17A;
+    font-family: serif;
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 0 auto;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.works-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    gap: 60px;
+}
+
+.work-item {
+    text-align: center;
+}
+
+.work-image {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 40px;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+.work-title {
+    font-size: 20px;
+    color: #CEA17A;
+    font-weight: 150;
+    letter-spacing: 2px;
+}
+
+.work-description {
+    font-size: 14px;
+    color: #CEA17A;
+    font-family: serif;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.redesigner-link {
+    position: fixed;
+    right: 20px;
+    top: 15%;
+    z-index: 1000;
+}
+
+.redesigner-image {
+    width: 80px;
+    height: auto;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+.highlight {
+    color: #ff6600;
+    /* オレンジ色 */
+    font-weight: 500;
+    /* 少し太字に */
+}
+
+.works-container {
+    /* 既存のスタイル */
+    padding-bottom: 100px;
+    /* この値を調整して、下部の空白を増やします */
+}
+
+.works-content {
+    /* 既存のスタイル */
+    margin-bottom: 60px;
+    /* この値を調整して、コンテンツと下部の空白の間隔を増やします */
+}
+
+/* 既存のボトムスペースのスタイルがある場合は以下のように調整します */
+.bottom-space {
+    margin-top: 60px;
+    /* この値を調整して、コンテンツとボトムスペースの間隔を増やします */
+}
+
+
+@keyframes floatUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

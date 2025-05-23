@@ -1,0 +1,39 @@
+.social-icons {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 100000;
+    /* 他のコンテンツの上に表示 */
+
+    opacity: 0;
+    transform: translateX(-20px);
+    /* 初期状態で透明 */
+    animation: fadeInIcons 2s forwards;
+}
+
+@keyframes fadeInIcons {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.social-icons a img {
+    width: 50px;
+    /* アイコンのサイズを調整 */
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.1);
+    /* ホバー時に少し拡大 */
+}

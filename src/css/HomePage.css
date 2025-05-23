@@ -1,0 +1,128 @@
+.title-container {
+    margin-top: 250px;
+}
+
+.title {
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #CEA17A;
+    letter-spacing: 5px;
+    font-weight: 180;
+}
+
+/* リンクの色を白に変更 */
+a {
+    color: #CEA17A;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.container {
+    font-family: serif;
+    /* min-height: 120vh; */
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    opacity: 0;
+    /* 初期状態で透明 */
+    transform: translateY(20px);
+    /* 初期状態で少し下に配置 */
+    animation: fadeInUp 5s forwards;
+    /* フェードインアニメーションを適用 */
+}
+
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+        /* 下から開始 */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        /* 元の位置に移動 */
+    }
+}
+
+
+.navigation-buttons {
+    display: flex;
+    flex-direction: column;
+    /* ボタンを縦方向に配置 */
+    align-items: center;
+    /* ボタンを中央揃え */
+    gap: 100px;
+    /* ボタン間の間隔 */
+    /* margin-top: auto; */
+    padding-top: 100px;
+    margin-bottom: 150px;
+    /* この行を追加 */
+}
+
+.nav-button {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #CEA17A;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+    /* より大きな値に変更 */
+    letter-spacing: 4px;
+    transition: background-color 0.3s ease;
+    width: 150px;
+    /* ボタンの幅を固定 */
+}
+
+.nav-button:hover {
+    background-color: rgba(62, 78, 90, 1.0);
+}
+
+.bottom-space {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+
+.bottom-text {
+    color: #CEA17A;
+    font-family: serif;
+    font-size: 14px;
+}
+
+/* @keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    100% {
+        opacity: 0.8;
+        transform: scale(0.9);
+    }
+}
+
+@keyframes popUpLoop {
+
+    0%,
+    100% {
+        opacity: 0.8;
+        transform: scale(0.9);
+    }
+
+    50% {
+        opacity: 1.0;
+        transform: scale(1);
+    }
+} */

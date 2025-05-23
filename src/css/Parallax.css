@@ -1,0 +1,93 @@
+.parallax-container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.parallax-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* 背景画像が動く範囲を広くする */
+    background-image: url('../Images/BackGround.jpg');
+    /* 画像のパスを指定 */
+    background-size: cover;
+    /* 画像をウィンドウ全体にカバー */
+    background-position: center;
+    /* 画像を中央に配置 */
+    background-repeat: no-repeat;
+    z-index: 1;
+    transition: transform 0.1s ease-out;
+    /* スムーズな動き */
+}
+
+.parallax-content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    min-height: 100vh;
+    /* コンテンツが少なくてもスクロール可能に */
+}
+
+
+.parallax-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 2;
+    animation: fadeInOut 10s infinite alternate;
+    /* アニメーションを適用 */
+}
+
+@keyframes fadeInOut {
+    0% {
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    10% {
+        background-color: rgba(0, 0, 0, 0.85);
+    }
+
+    20% {
+        background-color: rgba(0, 0, 0, 0.88);
+    }
+
+    30% {
+        background-color: rgba(0, 0, 0, 0.82);
+    }
+
+    40% {
+        background-color: rgba(0, 0, 0, 0.87);
+    }
+
+    50% {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    60% {
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+
+    70% {
+        background-color: rgba(0, 0, 0, 0.78);
+    }
+
+    80% {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    90% {
+        background-color: rgba(0, 0, 0, 0.65);
+    }
+
+    100% {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+}

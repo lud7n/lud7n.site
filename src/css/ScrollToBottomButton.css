@@ -1,0 +1,31 @@
+.scroll-button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: #CEA17A;
+    width: 60px;
+    /* ボタンの幅を設定 */
+    height: 60px;
+    /* ボタンの高さを設定（幅と同じ値で正円になります） */
+    text-align: center;
+    font-family: monospace, sans-serif !important;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+    /* 50%にすることで正円になります */
+    transition: background-color 0.3s ease;
+}
+
+.scroll-button-container {
+    margin-top: 200px;
+    /* この値を調整して、ボタンの位置を上下に移動できます */
+    text-align: center;
+}
+
+.scroll-button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}

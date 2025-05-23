@@ -1,0 +1,74 @@
+.loading-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    position: relative;
+    transition: opacity 5s ease-out;
+}
+
+.loading-screen.fade-out {
+    opacity: 0;
+}
+
+.vertical-line {
+    position: absolute;
+    width: 0.5px;
+    background-color: white;
+}
+
+.vertical-line.left {
+    top: 0;
+    left: 30%;
+    height: 0;
+    animation: growLineFromTop 2s forwards;
+}
+
+.vertical-line.right {
+    top: 100vh;
+    /* 初期位置を画面の下に設定 */
+    left: 70%;
+    height: 0;
+    animation: growLineFromBottom 2s forwards;
+}
+
+@keyframes growLineFromTop {
+    to {
+        height: 100vh;
+    }
+}
+
+@keyframes growLineFromBottom {
+    to {
+        height: 100vh;
+        top: 0;
+    }
+}
+
+.progress-circle {
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+.progress-ring {
+    transform: rotate(-90deg);
+}
+
+.progress-ring__circle {
+    transition: stroke-dashoffset 0.2s;
+    transform-origin: 50% 50%;
+}
+
+.progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 0.05em;
+    text-align: center;
+}

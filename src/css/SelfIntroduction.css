@@ -1,0 +1,52 @@
+.self-introduction-container {
+    margin: 20px;
+}
+
+.terminal-button {
+    background-color: transparent;
+    color: #CEA17A;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.terminal-window {
+    background-color: rgba(51, 51, 51, 0.5);
+    color: #CEA17A;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+}
+
+.terminal-header {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.terminal-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ff5f56;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.terminal-dot:nth-child(2) {
+    background-color: #ffbd2e;
+}
+
+.terminal-dot:nth-child(3) {
+    background-color: #27c93f;
+}
+
+.self-introduction {
+    white-space: pre-wrap;
+    color: #d4d4d4;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+}

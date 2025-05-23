@@ -1,0 +1,15 @@
+.fade-in-page {
+    opacity: 0;
+    /* 初期状態を透明に設定 */
+    transform: translateY(-20px);
+    /* 初期位置を少し上に設定 */
+    transition: opacity 2s ease-out, transform 2s ease-out;
+    /* 透明度と位置の変化をスムーズに */
+}
+
+.fade-in-page.fade-in {
+    opacity: 1;
+    /* フェードイン後の透明度 */
+    transform: translateY(0);
+    /* フェードイン後の位置 */
+}

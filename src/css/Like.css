@@ -1,0 +1,106 @@
+    .likes-page {
+        min-height: 100vh;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: serif;
+        color: #CEA17A;
+        background-color: #09171F;
+
+    }
+
+    .likes-container {
+        max-width: 1200px;
+        width: 100%;
+        margin: 300px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .likes-container {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+        animation: floatUp 1s ease-out forwards;
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    @keyframes floatUp {
+        0% {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .likes-title {
+        font-size: 24px;
+        font-weight: 300;
+        letter-spacing: 4px;
+        color: #CEA17A;
+        margin-bottom: 10px;
+        font-family: serif;
+    }
+
+    .likes-subtitle {
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 300px;
+        color: #CEA17A;
+    }
+
+    .likes-content {
+        width: 100%;
+        margin-top: 150px;
+    }
+
+    .like-item {
+        margin-bottom: 60px;
+        text-align: left;
+        padding: 20px;
+        /* background-color: #f9f9f9; */
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /* .like-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    } */
+
+    .like-item-title {
+        font-size: 20px;
+        color: #CEA17A;
+        margin-bottom: 10px;
+        font-weight: 300;
+        font-family: serif;
+        /* transition: font-size 0.3s cubic-bezier(0.25, 0.1, 0.25, 1); */
+    }
+
+    .like-item-description {
+        font-size: 16px;
+        color: #CEA17A;
+        line-height: 1.6;
+        font-weight: 300;
+        font-family: serif;
+        /* transition: font-size 0.3s cubic-bezier(0.25, 0.1, 0.25, 1); */
+    }
+
+    .click-here-link {
+        color: #CEA17A;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    .click-here-link:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }

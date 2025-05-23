@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.skill {
+    margin: 10px;
+    margin-bottom: 80px;
+    /* 下のマージンを30pxに設定 */
+    display: flex;
+    justify-content: center;
+    animation: popUp 0.5s ease-in-out;
+}
+
+
+.skillName {
+    margin-top: 10px;
+    text-align: center;
+    line-height: 1.5;
+    /* 行間を1.5に設定 */
+}
+
+@media (max-width: 300px) {
+    .skill {
+        width: 100%;
+        /* スマートフォンでは1列表示 */
+    }
+}
+
+@media (min-width: 301px) and (max-width: 500px) {
+    .skill {
+        width: 50%;
+        /* タブレットでは2列表示 */
+    }
+}
+
+@media (min-width: 501px) {
+    .skill {
+        width: 33.33%;
+        /* デスクトップでは3列表示 */
+    }
+}
+
+@keyframes popUp {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

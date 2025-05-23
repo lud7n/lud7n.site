@@ -3,9 +3,14 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
-    padding-top: 150px;
+    align-items: flex-start;
+    text-align: left;
+    font-family: serif;
+    color: #CEA17A;
+    padding-top: 50px;
+    /* 150pxから50pxに変更 */
     padding-left: 20px;
+    padding-right: 20px;
     /* 左側の余白を追加 */
     padding-right: 20px;
     /* 右側の余白を追加 */
@@ -16,25 +21,26 @@
     max-width: 800px;
     width: 100%;
     padding: 20px;
-    font-family: Arial, sans-serif;
+    font-family: serif;
     line-height: 1.6;
-    color: white;
+    /* color: white; */
 }
 
 .article-template-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 100px;
+    /* align-items: center; */
     padding-left: 20px;
+    padding-right: 20px;
     /* 左側の余白を追加 */
     padding-right: 20px;
     /* 右側の余白を追加 */
 }
 
 .article-template-title {
-    font-size: 28px;
-    color: white;
+    font-size: 24px;
+    /* color: white; */
+    text-align: center;
     margin: 0;
     flex: 1;
     /* タイトルが利用可能なスペースを占有 */
@@ -44,7 +50,7 @@
 
 .article-template-date {
     font-size: 14px;
-    color: white;
+    /* color: white; */
     white-space: nowrap;
     /* 日付が改行されないようにする */
 }
@@ -78,14 +84,15 @@
 }
 
 .article-template-footer {
-    border-top: 1px solid #eee;
+    /* border-top: 1px solid #eee; */
+    align-items: center;
     padding-top: 20px;
 }
 
 .article-template-back-to-blog {
     display: inline-block;
     padding: 10px 15px;
-    background-color: #0066cc;
+    background-color: #CEA17A;
     color: white;
     text-decoration: none;
     border-radius: 5px;
