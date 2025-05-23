@@ -1,32 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
-import SelfIntroduction from './SelfIntroduction';
-import ScrollToBottomButton from './ScrollToBottomButton';
-import '../css/HomePage.css';
-import ParallaxPage from './ParallaxPage';
-import Concept from './Concept';
-
-// import LoadingScreen from './LoadingScreen';
+import SelfIntroduction from '../SelfIntroduction/SelfIntroduction';
+import ScrollToBottomButton from '../ScrollToBottomButton/ScrollToBottomButton';
+import '../HomePage/HomePage.css';
+import ParallaxPage from '../Parallax/ParallaxPage';
+import Concept from '../Concept/Concept';
 
 const HomePage = () => {
-    const [loading, setLoading] = useState(true);
     const [showContent, setShowContent] = useState(false);
 
     useEffect(() => {
-        const timer = setTimeout(() => {
-            setLoading(false);
-        }, 2000);
-
-        return () => clearTimeout(timer);
+        // コンテンツを表示する
+        setShowContent(true);
     }, []);
-
-
-    const scrollToBottom = () => {
-        window.scrollTo({
-            top: document.documentElement.scrollHeight,
-            behavior: 'smooth'
-        });
-    };
 
     return (
         <ParallaxPage>
@@ -36,10 +22,6 @@ const HomePage = () => {
                 </div>
 
                 <SelfIntroduction />
-
-                <div className="scroll-button-container">
-                    <ScrollToBottomButton onClick={scrollToBottom} />
-                </div>
 
                 <div className="navigation-buttons">
                     <Link to="/works" className="nav-button">Works</Link>

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/SocialIcons.css';
+import '../SocialIcons/SocialIcons.css';
 import twitterImage from "../Images/icons8-ツイッター-48.png";
 import atcoderImage from "../Images/icons8-laptop-coding-48.png";
 import instagramImage from "../Images/icons8-インスタグラム-48.png";

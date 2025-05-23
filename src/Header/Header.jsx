@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import '../css/Header.css';  // CSSファイルをインポート
+import '../Header/Header.css';  // CSSファイルをインポート
 import logoImage from '../Images/lud7n.logo_0815.png'; // ロゴ画像のパスを適切に設定してください
 
 const Header = () => {

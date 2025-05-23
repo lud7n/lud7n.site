@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import '../css/FadeInPage.css'; // CSSファイルをインポート
+import '../FadeInPage/FadeInPage.css'; // CSSファイルをインポート
 
 const FadeInPage = ({ children }) => {
     useEffect(() => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/ScrollToBottomButton.css';
+import '../ScrollToBottomButton/ScrollToBottomButton.css';
 
 const ScrollToBottomButton = ({ onClick }) => {
 

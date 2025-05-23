@@ -1,7 +1,7 @@
 import React from 'react';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
-import styles from '../css/SkillGage.module.css';
+import styles from '../SkillGage/SkillGage.module.css';
 
 const skills = [
     { name: "React", level: 45 },

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import SkillGage from './SkillGage';
-import '../css/SkillPage.css';
+import SkillGage from '../SkillGage/SkillGage';
+import '../SkillPage/SkillPage.css';
 
 const SkillPage = () => {
     const [isVisible, setIsVisible] = useState(false);

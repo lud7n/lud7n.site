@@ -9,6 +9,11 @@
     padding: 10px 20px;
     cursor: pointer;
     font-family: 'Courier New', Courier, monospace;
+    transition: transform 0.3s ease;
+}
+
+.terminal-button:hover {
+    transform: translateY(-3px);
 }
 
 .terminal-window {
