@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import '../css/Concept.css';
+import '../Concept/Concept.css';
 
 const Concept = () => {
     const conceptRef = useRef(null);

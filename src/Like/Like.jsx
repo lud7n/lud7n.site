@@ -1,6 +1,6 @@
 import React from 'react';
-import '../css/Like.css';  // CSSファイルを作成し、インポートしてください
-import ScrollToBottomButton from './ScrollToBottomButton';
+import '../Like/Like.css';  // CSSファイルを作成し、インポートしてください
+import ScrollToBottomButton from '../ScrollToBottomButton/ScrollToBottomButton';
 
 const Like = () => {
 

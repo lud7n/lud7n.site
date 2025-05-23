@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { CSSTransition } from 'react-transition-group';
-import '../css/SelfIntroduction.css';
+import '../SelfIntroduction/SelfIntroduction.css';
 
 const SelfIntroduction = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -25,12 +25,12 @@ const SelfIntroduction = () => {
                 if (index > fullText.length) {
                     clearInterval(interval);
                 }
-            }, 50); // 文字が表示される速度を調整
+            }, 50);
             return () => clearInterval(interval);
         } else {
             setDisplayText('');
         }
-    }, [isVisible]);
+    }, [isVisible, fullText]); // fullTextを依存配列に追加
 
     const toggleVisibility = () => {
         setIsVisible(!isVisible);

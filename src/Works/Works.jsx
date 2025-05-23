@@ -1,10 +1,10 @@
 import React from 'react'
-import '../css/Works.css';
+import '../Works/Works.css';
 import copypenImage from "../Images/copypen.jpg";
 import fuwawariImage from "../Images/fuwawari.png";
 import funfesImage from "../Images/funfes.jpg";
 import RedesignerImage from "../Images/redesigner_transparent.png";
-import ScrollToBottomButton from './ScrollToBottomButton';  // ScrollToBottomButtonをインポート
+import ScrollToBottomButton from '../ScrollToBottomButton/ScrollToBottomButton';  // ScrollToBottomButtonをインポート
 
 const Works = () => {
     const scrollOneWindowHeight = () => {

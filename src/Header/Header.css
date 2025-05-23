@@ -47,10 +47,11 @@
     /* ロゴのサイズを適切に調整してください */
     height: auto;
     margin-top: -10px;
-    /* margin-right: -25px; */
-    /* 高さも指定して、アスペクト比を維持します */
-    /* object-fit: contain; */
-    /* 画像のアスペクト比を保持しつつ、指定したサイズに収めます */
+    transition: transform 0.3s ease;
+}
+
+.logo-image:hover {
+    transform: scale(1.1);
 }
 
 .logo h3 {
