@@ -1,7 +1,7 @@
 .header {
     position: fixed;
     top: 0;
-    color: #CEA17A;
+    color: #eeffbb;
     font-family: serif;
     z-index: 1000;
     display: flex;
@@ -39,7 +39,7 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #CEA17A;
+    color: #eeffbb;
 }
 
 .logo-image {
@@ -63,7 +63,7 @@
 
 /* リンクの色を白に保持 */
 .header a {
-    color: #CEA17A;
+    color: #eeffbb;
     text-decoration: none;
     letter-spacing: 0.15em;
 }

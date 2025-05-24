@@ -7,7 +7,7 @@ body {
     min-height: 100vh;
     padding: 20px;
     display: flex;
-    /* background-color: #09171F; */
+    /* background-color: #000f00; */
     flex-direction: column;
     align-items: center;
     font-family: serif;
@@ -31,7 +31,7 @@ body {
 
 .works-title {
     font-size: 2.5em;
-    color: #CEA17A;
+    color: #eeffbb;
     line-height: 1.5;
     font-weight: 150;
     letter-spacing: 2px;
@@ -41,7 +41,7 @@ body {
 
 .works-subtitle {
     font-size: 1.2em;
-    color: #CEA17A;
+    color: #eeffbb;
     font-family: serif;
     line-height: 1.5;
     max-width: 600px;
@@ -70,14 +70,14 @@ body {
 
 .work-title {
     font-size: 20px;
-    color: #CEA17A;
+    color: #eeffbb;
     font-weight: 150;
     letter-spacing: 2px;
 }
 
 .work-description {
     font-size: 14px;
-    color: #CEA17A;
+    color: #eeffbb;
     font-family: serif;
     max-width: 600px;
     margin: 30px auto;
