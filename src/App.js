@@ -6,10 +6,12 @@ import SkillPage from './SkillPage/SkillPage';
 import Works from './Works/Works';
 import Like from './Like/Like';
 import SocialIcons from './SocialIcons/SocialIcons';
-// import Licenses from './jsx/Licenses';
+import ScrollToTop from './ScrollToTop/ScrollToTop';
+
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         <Header />
         <SocialIcons />

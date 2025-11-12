@@ -28,12 +28,11 @@ const Concept = () => {
             className={`concept-container ${isVisible ? 'visible' : ''}`}
             ref={conceptRef}
         >
-            <h2 className="concept-title">v_2.1 "aqualium"</h2>
+            <h2 className="concept-title">v_2.2 "CodeSPACEs"</h2>
             <p className="concept-description">
-                The design is inspired by the floating feeling of the jellyfish in Alaska, with the parallax effect in mind.<br />
-                In addition, the text color matches the cool colors to create a rich impression.<br /><br />
-                FrontEnd : React, JavaScript, Bootstrap<br />
-                BackEnd : Node.js<br />
+                I designed it with a coding-themed aesthetic in mind.<br />
+                Since my AtCoder rating has reached the green level, <br />
+                the color scheme is based on various shades of green.
             </p>
         </div>
     );
